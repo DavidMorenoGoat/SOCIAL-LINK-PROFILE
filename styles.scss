@@ -1,0 +1,106 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+$Color1:  hsl(0, 0%, 12%);
+$Color2:hsl(0, 0%, 8%);
+$Color3: hsl(0, 0%, 20%);
+$Color4: hsl(0, 0%, 100%);
+$Color5:hsl(75, 94%, 57%);
+
+// CONTENEDOR GENERAL.
+.conteiner-General{
+    background-color:$Color2;
+    display: flex;
+    justify-content: center;
+}
+
+// CONTENEDOR DE TARJETA.
+.container-target{
+    // overflow: hidden;
+    // box-sizing: border-box;
+    padding: 50px;
+    background-color: $Color1;
+    margin: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img{
+        margin-bottom: 30px;
+        border-radius: 50%;
+        height: 20%;
+    }
+    h2{
+        color: white;
+        @font-face {
+            font-family: 'bold' ;
+            src: url(/assets/fonts/static/Inter-Bold.ttf);
+        }
+
+        font-family: bold;
+        font-size: 1.5em;
+        font-weight: 15px;
+    }
+    h3{
+        margin: 15px;
+        color:$Color5 ;
+        font-size: 15px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    p{
+        padding: 15px;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+// CONTENEDOR DE BOTONES
+.conteiner-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    a{
+        border-radius: 7px;
+        margin: 10px;
+        width: 160% ;
+        padding: 15px ;
+        background-color: $Color3;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+
+
+        @font-face {
+            font-family: 'bold' ;
+            src: url(/assets/fonts/static/Inter-Bold.ttf);
+        }
+        font-family: bold;
+
+    }
+    a:hover{
+        background-color: $Color2;
+}
+}
+}
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center;
+ background-color: brown;
+ p{
+    font-size: 30px;
+ }
+}
+.attribution a { color: hsl(228, 45%, 44%); 
+    font-size: 30px;
+
+}
