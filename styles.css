@@ -1,0 +1,85 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.conteiner-General {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+}
+
+.container-target {
+  padding: 50px;
+  background-color: hsl(0, 0%, 12%);
+  margin: 30px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-target img {
+  margin-bottom: 30px;
+  border-radius: 50%;
+  height: 20%;
+}
+.container-target h2 {
+  color: white;
+  font-family: bold;
+  font-size: 1.5em;
+  font-weight: 15px;
+}
+@font-face {
+  font-family: "bold";
+  src: url(/assets/fonts/static/Inter-Bold.ttf);
+}
+.container-target h3 {
+  margin: 15px;
+  color: hsl(75, 94%, 57%);
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container-target p {
+  padding: 15px;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.container-target .conteiner-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-target .conteiner-items a {
+  border-radius: 7px;
+  margin: 10px;
+  width: 160%;
+  padding: 15px;
+  background-color: hsl(0, 0%, 20%);
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-family: bold;
+}
+@font-face {
+  font-family: "bold";
+  src: url(/assets/fonts/static/Inter-Bold.ttf);
+}
+.container-target .conteiner-items a:hover {
+  background-color: hsl(0, 0%, 8%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  background-color: brown;
+}
+.attribution p {
+  font-size: 30px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  font-size: 30px;
+}
